@@ -3,7 +3,7 @@ const express = require('express');
 const app = express();
 
 // Rota para "Hello, World!"
-app.get('/', (req, res) => {
+app.get('/hello', (req, res) => {
     res.send('Hello, World!');
 });
 
